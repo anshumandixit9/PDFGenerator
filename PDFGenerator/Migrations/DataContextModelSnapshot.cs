@@ -31,6 +31,12 @@ namespace PDFGenerator.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("latitude")
+                        .HasColumnType("float");
+
+                    b.Property<double>("longitude")
+                        .HasColumnType("float");
+
                     b.Property<int>("sample1")
                         .HasColumnType("int");
 

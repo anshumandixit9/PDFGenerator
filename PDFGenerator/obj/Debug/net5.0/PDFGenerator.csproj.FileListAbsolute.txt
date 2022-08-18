@@ -57,7 +57,6 @@ D:\PDFGenerator\PDFGenerator\obj\Debug\net5.0\PDFGenerator.genruntimeconfig.cach
 D:\PDFGenerator\PDFGenerator\obj\Debug\net5.0\ref\PDFGenerator.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Humanizer.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\ref\PDFGenerator.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\DinkToPdf.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Microsoft.Azure.WebJobs.Host.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Microsoft.Azure.WebJobs.dll
@@ -72,3 +71,8 @@ D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\NuGet.Packaging.Core.Types.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\NuGet.RuntimeModel.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\NuGet.Versioning.dll
 D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\System.Memory.Data.dll
+D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\ref\PDFGenerator.dll
+D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Docker.DotNet.dll
+D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Select.Html.dep
+D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PDFGenerator\PDFGenerator\bin\Debug\net5.0\Select.HtmlToPdf.dll

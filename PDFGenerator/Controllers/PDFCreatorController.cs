@@ -1,8 +1,7 @@
-﻿using DinkToPdf;
-using DinkToPdf.Contracts;
+﻿using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using PDFGenerator.Data;
-using System.IO;
+using SelectPdf;
 namespace PDFGenerator.Controllers
 {
     [Route("api/pdfcreator")]
@@ -20,7 +19,12 @@ namespace PDFGenerator.Controllers
         [HttpGet]
         public IActionResult CreatePDF()
         {
-            var globalSettings = new GlobalSettings
+            HtmlToPdf converter = new HtmlToPdf();
+            converter.Options.PdfPageSize = PdfPageSize.A4;
+            converter.Options.PdfPageOrientation = PdfPageOrientation.Portrait;
+            converter.Options.MinPageLoadTime = 5;
+
+            /*var globalSettings = new GlobalSettings
             {
                 ColorMode = ColorMode.Color,
                 Orientation = Orientation.Portrait,
@@ -41,8 +45,11 @@ namespace PDFGenerator.Controllers
             {
                 GlobalSettings = globalSettings,
                 Objects = { objectSettings }
-            };
-            _converter.Convert(pdf);
+            };*/
+            /*_converter.Convert(pdf);*/
+            PdfDocument doc = converter.ConvertHtmlString(TemplateComfig.GetHTMLString(_context));
+            doc.Save("image.pdf");
+            doc.Close();
             return Ok("Successfully created PDF document.");
         }
     }

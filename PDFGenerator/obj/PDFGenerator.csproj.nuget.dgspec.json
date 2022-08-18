@@ -46,6 +46,10 @@
               "target": "Package",
               "version": "[1.0.8, )"
             },
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.10, )"
+            },
             "Microsoft.Azure.WebJobs": {
               "target": "Package",
               "version": "[3.0.33, )"
@@ -73,6 +77,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Select.HtmlToPdf": {
+              "target": "Package",
+              "version": "[22.1.0, )"
+            },
+            "Select.HtmlToPdf.NetCore": {
+              "target": "Package",
+              "version": "[22.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

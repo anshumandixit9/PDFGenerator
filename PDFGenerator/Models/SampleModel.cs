@@ -17,5 +17,7 @@ namespace PDFGenerator.Models
         public int sample3 { get; set; }
         public int sample4 { get; set; }
 
+        public double longitude { get; set; }
+        public double latitude { get; set; }
     }
 }
